@@ -23,7 +23,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-STATIC_PATHS = ['images', 'assets']
+STATIC_PATHS = [
+    'images',
+    'assets',
+    'extra',
+]
+
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': dict(path='CNAME'),
+    'extra/keybase.txt': dict(path='keybase.txt'),
+}
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = [
