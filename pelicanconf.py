@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Lars Kellogg-Stedman'
-SITENAME = 'oddbit.com'
+SITENAME = 'Odd Bits'
 SITEURL = ''
 SITESUBTITLE = 'One of these things is not like the others'
 
