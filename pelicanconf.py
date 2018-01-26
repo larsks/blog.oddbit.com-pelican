@@ -12,7 +12,6 @@ FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 
 TIMEZONE = 'US/Eastern'
 
-DEFAULT_CATEGORY = 'Blog'
 DEFAULT_LANG = 'en'
 DEFAULT_PAGINATION = 5
 RELATIVE_URLS = True
@@ -60,5 +59,3 @@ SUMMARY_END_MARKER = '<!-- more -->'
 SUMMARY_BEGIN_MARKER = '<!-- begin -->'
 
 THEME = 'themes/tuxlite_tbs'
-GITHUB_URL = 'https://github.com/larsks/blog.oddbit.com-posts'
-PROJECT_ROOT = '/home/lars/tmp/blog/content'
