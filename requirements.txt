@@ -1,0 +1,4 @@
+git+https://github.com/getpelican/pelican.git
+ghp-import
+markdown
+PyYAML
